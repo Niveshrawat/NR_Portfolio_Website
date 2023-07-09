@@ -32,7 +32,7 @@ export default function Navbar(props) {
         <div className={styles.Navbar}>
           <span  >
             <div  onClick={props.onClickLanding} className={styles.NavbarLogo}>
-              <img src={logo} alt="Ayush_logo" />
+              <img src={logo} alt="Nivesh_logo" />
             </div>
           </span>
 
