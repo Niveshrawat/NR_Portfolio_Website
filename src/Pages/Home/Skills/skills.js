@@ -50,8 +50,7 @@ export default function Skills({Skills_ref}) {
           data-aos-once="true"
           className={styles.headingText}
         >
-          I like to take responsibility to craft good user experiences using my
-          skills
+          I am a coding wizard, fluent in Python, JavaScript , NodeJS, and React Js. With SQL sorcery, I shape flawless data realms. As an API ninja, I swiftly wield REST and GraphQL. I fearlessly conquer AWS and Azure as a cloud commander. A relentless bug bounty hunter, no line of code escapes my scrutiny. Let's join forces and embark on thrilling coding quests!
         </p>
 
         <div

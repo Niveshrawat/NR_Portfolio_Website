@@ -30,33 +30,32 @@ export default function Experience({Experience_ref}) {
         <div className={styles.projects}>
           <Card
             type="ex"
-            name={"Software Incubator"}
+            name={"Homians "}
             image={SI}
             alt="SI logo"
             link="https://silive.in/"
-            desc="Working with a team of 45 members for cultivating technical activities in the
-            college and maintaining various websites. Organised various workshops and seminars on Competitive Programming,UI/UX and trending technologies"
+            desc="At Homians, I collaborated with a team of six members to build a captivating landing page using HTML, CSS, and JavaScript. Together, we designed and developed a visually impressive interface that showcased the essence of Homians' brand."
             position="Ongoing"
           />
           <Card
             type="ex"
-            name={"Repairo"}
+            name={"IDR Research & Development Pvt Ltd"}
             image={Repairo}
             link="https://www.repairoindia.com/"
             alt="Repairo logo"
-            desc="Worked as a Full stack Intern to develop UI components and make Rest API's. Implemented various functionalities as well as managed states using context API"
+            desc="Worked as a Full stack Intern to develop UI components and make Rest API's. Implemented various functionalities as well as managed states using context API also worked on developing admin dashboard"
             position="May 2022 - Aug 2022"
           />
 
-          <Card
+          {/* <Card
             name={"AICTE"}
             image={AICTE}
             alt="aicte logo"
             type="ex"
-            desc=" Worked as a React developer to develop a webapp for All India Council of Technical Education.Application is used by faculties of colleges across the nation."
+            desc=" Worked as a Full stack developer to develop a webapp for All India Council of Technical Education.Application is used by faculties of colleges across the nation."
             position="Sept 2021 Dec 2021"
-          />
-          <Card
+          /> */}
+          {/* <Card
             name={"Gollaa"}
             image={Gollaa}
             alt="pro"
@@ -65,17 +64,8 @@ export default function Experience({Experience_ref}) {
             desc="Worked as a Freelancer,Developed complete main website which consists of a landing
              page with animations and transitions along with blog and stories sections ( 11 pages ) using React and Sass."
             link="https://github.com/hrik2001/answer"
-          />
-          <Card
-            name={"PSOC'21"}
-            image={Answer}
-            alt="pro"
-            type="ex"
-            position="July 2021 - Aug 2021"
-            desc="Worked as an Open source mentee in PSOC 2021, designed and developed Discord bot that answers user’s queries using t5 transformers and also comes packed with moderation tools.
-            Techstack used Quart, discord.py and Jinja templating engine"
-            link="https://github.com/hrik2001/answer"
-          />
+          /> */}
+          
         </div>
       </div>
 

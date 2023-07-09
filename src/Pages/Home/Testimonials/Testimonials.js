@@ -49,10 +49,10 @@ function Testi() {
             img={MadhurSir}
             alt={"madhurProfile"}
             text={
-              "Ayush is a great team mate to work with, having the desired skills be it in technical or managerial terms. He has a solid foundation of computer science and puts the required amount of hard work and dedication to accomplish a given task. A great team member, learner and visionary."
+              "Nivesh Rawat is a great team mate to work with, having the desired skills be it in technical or managerial terms. He has a solid foundation of computer science and puts the required amount of hard work and dedication to accomplish a given task. A great team member, learner and visionary."
             }
-            name={"Madhur Vashistha"}
-            tag1={"Google"}
+            name={"Devesh Tripathi"}
+            tag1={"SIH 2022 Winner"}
             tag2={"Ex-Amazon"}
             tag3={"SDC"}
             link={"https://www.linkedin.com/in/madhur-vashistha-6217a0181/"}
@@ -62,13 +62,13 @@ function Testi() {
             img={ArnavSir}
             alt={"arnavProfile"}
             text={
-              "Ayush is a great programmer, we worked together at Software Incubator, and he is a hard-working, dedicated, team player, and had a good experience in developing Industrial grade projects."
+              "Nivesh Rawat is a great programmer, we worked together at Software Incubator, and he is a hard-working, dedicated, team player, and had a good experience in developing Industrial grade projects."
             }
-            name={"Arnav Jain"}
-            tag1={"Amazon"}
+            name={"Harsh Sharma"}
+            tag1={"Founder @ConnectBees"}
             tag2={"Ex-Sony"}
             tag3={"SDC"}
-            link={"https://www.linkedin.com/in/arnav-jain-555891194/"}
+            link={"https://www.linkedin.com/in/harsh-sharma04/"}
           />
         </Carousel>
       </div>

@@ -36,6 +36,14 @@
     font-size:25px;
 }
 
+.img_side{
+    /* display: none; */
+    margin-top: 200px;
+    height: 300px;
+    width: 300px;
+}
+
+
 .mainLeft p:nth-child(1){
     margin-bottom:8px;
 }
@@ -113,7 +121,13 @@
 
   
 @media (max-width: 700px) {
-  
+    .img_side{
+        margin-left: -200px;
+        height: 150px;
+        margin-top: -150px;
+
+        /* display: none; */
+    }
     .main {
         color: white;
         display: flex;

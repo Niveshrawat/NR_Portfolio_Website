@@ -26,7 +26,7 @@ function Landing({Landing_ref}) {
           className={styles.mainLeft}
         >
           <p>
-            Hey! This is <b>Ayush,</b>
+            Hey! This is <b>Nivesh Rawat,</b>
           </p>
 
           <p>
@@ -49,6 +49,10 @@ function Landing({Landing_ref}) {
                 </Button>
               </a>
             </span>
+        </div>
+
+        <div className="img_side2">
+          <img className={styles.img_side} src="https://cdn.discordapp.com/attachments/992537317959020624/1127527011972288522/undraw_Programming_re_kg9v_1.png"/>
         </div>
       </div>
 

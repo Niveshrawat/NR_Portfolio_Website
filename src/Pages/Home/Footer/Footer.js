@@ -27,7 +27,7 @@ export default function Footer(props) {
           <div className={styles.Links}>
             <div className={styles.logo}>
               <a
-                href="https://github.com/ayush-lab"
+                href="https://github.com/Niveshrawat"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -37,7 +37,7 @@ export default function Footer(props) {
 
             <div className={styles.logo}>
               <a
-                href="https://www.linkedin.com/in/ayushimpulse/"
+                href="https://www.linkedin.com/in/nivesh-rawat/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -47,7 +47,7 @@ export default function Footer(props) {
 
           
 
-            <div className={styles.logo}>
+            {/* <div className={styles.logo}>
               <a
                 href="https://www.codechef.com/users/ayush_8750"
                 target="_blank"
@@ -55,9 +55,9 @@ export default function Footer(props) {
               >
                 <img src={Codechef} alt="codechef logo" />
               </a>
-            </div>
+            </div> */}
 
-            <div className={styles.logo}>
+            {/* <div className={styles.logo}>
               <a
                 href="https://codeforces.com/profile/ayush8750"
                 target="_blank"
@@ -65,9 +65,9 @@ export default function Footer(props) {
               >
                 <img src={Codeforces} alt="codeforces" />
               </a>
-            </div>
+            </div> */}
 
-            <div className={styles.logo}>
+            {/* <div className={styles.logo}>
               <a
                 href="https://leetcode.com/ayush-lab/"
                 target="_blank"
@@ -75,11 +75,11 @@ export default function Footer(props) {
               >
                 <img src={Leet} alt="leetcode logo" />
               </a>
-            </div>
+            </div> */}
 
             <div className={styles.logo}>
               <a
-                href="https://auth.geeksforgeeks.org/user/ayushverma8750/practice/"
+                href="https://auth.geeksforgeeks.org/user/niveshrawat2002/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -88,7 +88,7 @@ export default function Footer(props) {
             </div>
             <div className={styles.logo}>
               <a
-                href="https://www.instagram.com/ayuush_verma_/"
+                href="https://www.instagram.com/niveshrawat/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -100,7 +100,7 @@ export default function Footer(props) {
 
           <div className={styles.mailBtn}>
             <Button primary>
-              <a href="mailto:ayush1911052@akgec.ac.in">Mail Ayush</a>
+              <a href="mailto:niveshrawat2002@gmail.com">Connect with Me</a>
             </Button>
           </div>
 
@@ -110,7 +110,7 @@ export default function Footer(props) {
 
         </div>
         <div className={styles.name}>
-          <span>Designed and Developed by Ayush with love ❤️</span>
+          <span>Designed and Developed by Nivesh with love ❤️</span>
         </div>
       </div>
     </>

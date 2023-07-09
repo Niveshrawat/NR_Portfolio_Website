@@ -17,17 +17,13 @@ export default function Project({Project_ref}) {
       <div ref={Project_ref} className={styles.ProjectSection}>
         <div className={styles.Project}>
           <ProjectTem
-            title="Bytepad"
-            smallDesc="lead react developer"
-            longDesc="Worked as a lead react developer to develop Bytepad used by 1000+
-         college students to access 3000+ question papers.
-         Implemented filtering and Searching using Redux,
-         Accomplished 65% in user base with 80% user retention rate.
-         Dedicated admin-panel, to manage entire docs collection (Lazy
-         Loading)"
-            skill1="react"
-            skill2="redux"
-            skill3="Spring"
+            title="Scholarly"
+            smallDesc="Backend developer"
+            longDesc="As a backend developer for the Scholarly scholarship portal, my role was instrumental in designing and implementing the server-side components, developing robust APIs, integrating external services, optimizing performance, and ensuring a seamless user experience. 
+            "
+            skill1="Node Js"
+            skill2="Express Js"
+            skill3="Mongo DB"
             link="https://bytepad.silive.in/"
             image={Bytepad}
           />
@@ -35,24 +31,21 @@ export default function Project({Project_ref}) {
 
         <div className={styles.Project}>
           <ProjectTem
-            title="SHELP"
-            smallDesc="An e-learning platform to enhance education and
-            management delivery."
-            longDesc="Implemented JWT and Google SSO O-Auth2 authentication,
-            Sockets for real time communication, optimised using
-            Redis. Tested express endpoints using Jest. User and teacher panels to upload,categorise,search,rate,chat,track
-            progress, bookmark,course payment and more."
-            skill1="MERN"
-            skill2="Redis"
-            skill3="Redux"
-            skill4="Sockets"
+            title="Career Buddy"
+            smallDesc="Backend Developer"
+            longDesc="As a backend developer for Career Buddy, I designed and developed the server-side components, built APIs, integrated services, optimized performance, and ensured a seamless user experience. Career Buddy is a career recommendation and guidance platform that helps individuals navigate their career paths.
+            "
+            skill1="Express.Js"
+            skill2="Node Js"
+            skill3="Mongo DB"
+            skill4="Python"
             skill5="docker"
             link="https://github.com/ayush-lab/Coursera-Clone"
             image={Coursera}
           />
         </div>
 
-        <div className={styles.Project}>
+        {/* <div className={styles.Project}>
           <ProjectTem
             title="Repairo"
             smallDesc=" Electronics repairing company, helping customers with cost effective and quality services "
@@ -63,8 +56,8 @@ export default function Project({Project_ref}) {
             skill3="REST API"
             image={Repairo}
             link="https://www.repairoindia.com/"
-          />
-        </div>
+          /> */}
+        {/* </div> */}
       </div>
       <div class="line">
         <div

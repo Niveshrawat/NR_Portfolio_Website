@@ -30,31 +30,30 @@ export default function Featured({Exploration_ref}) {
 
         <div className={styles.projects}>
           <Card
-            name={"Saheli"}
+            name={"MediPocket"}
             image={Saheli}
             alt="Saheli"
-            desc="Woman can look for fellow women in her vicinity via applying filters like distance and age, see basic details about them and also details on where they are headed and
-            their mode of transportation, all in a real time lucid map using React-leaflet and react hook, useInterval for long polling."
-            position="Hackathon"
-            link={"https://github.com/ImpulseInc/saheli"}
+            desc="MediPocket: Your Secure Medical Records Vault. Accessible to patients and doctors, this user-friendly website stores and manages medical records securely. Say goodbye to paper documents and embrace the future of healthcare with MediPocket."
+            position="React Js ,NodeJs , MongoDB"
+            // link={"https://github.com/ImpulseInc/saheli"}
           />
           <Card
-            name={"Birdminton"}
+            name={"Face Recognition"}
             image={Birdminton}
-            desc="It is a small multiplayer badminton game, a fierce fight between birds and pigs. Whomever scores 5 eggs first will win the match!"
-            link={"https://github.com/ayush-lab/Badminton-Game"}
+            desc="With the marvels of Python, I crafted a cutting-edge face recognition system that harnesses the power of computer vision. This intelligent solution seamlessly identifies and verifies individuals, revolutionizing access control, security measures, and personalized experiences."
+            link={"https://github.com/Niveshrawat/FACE_RECOGNITION"}
             alt="Birdminton"
-            position="HTML Canvas | JS"
+            position="Python"
           />
           <Card
-            name={"Trello"}
+            name={"Snake Game"}
             image={Trello}
             alt="Trello"
-            desc="It is a fully responsive Trello Clone which followed the kanban's workflow"
-            link={"https://github.com/ayush-lab/TrelloClone"}
-            position="React"
+            desc="A simple snake game made using pygame"
+            link={"https://github.com/Niveshrawat/Snake_game"}
+            position="Python"
           />
-          <Card
+          {/* <Card
             name={"Gollaa"}
             image={Gollaa}
             alt="pro"
@@ -62,7 +61,7 @@ export default function Featured({Exploration_ref}) {
              and stories sections ( 11 pages ) using React and Sass."
             link="https://gollaa.web.app/home"
             position="Freelancing"
-          />
+          /> */}
         </div>
       </div>
       <div class="line">
