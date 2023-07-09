@@ -24,7 +24,7 @@ export default function Project({Project_ref}) {
             skill1="Node Js"
             skill2="Express Js"
             skill3="Mongo DB"
-            link="https://bytepad.silive.in/"
+            link=""
             image={Bytepad}
           />
         </div>
@@ -40,7 +40,7 @@ export default function Project({Project_ref}) {
             skill3="Mongo DB"
             skill4="Python"
             skill5="docker"
-            link="https://github.com/ayush-lab/Coursera-Clone"
+            link="https://careerbuddy.netlify.app/"
             image={Coursera}
           />
         </div>

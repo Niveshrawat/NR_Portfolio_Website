@@ -33,18 +33,18 @@ export default function Experience({Experience_ref}) {
             name={"Homians "}
             image={SI}
             alt="SI logo"
-            link="https://silive.in/"
+            link="http://homians.com/"
             desc="At Homians, I collaborated with a team of six members to build a captivating landing page using HTML, CSS, and JavaScript. Together, we designed and developed a visually impressive interface that showcased the essence of Homians' brand."
-            position="Ongoing"
+            position="Mar 2022 - May 2022"
           />
           <Card
             type="ex"
             name={"IDR Research & Development Pvt Ltd"}
             image={Repairo}
-            link="https://www.repairoindia.com/"
+            link="https://idr-rnd.netlify.app/"
             alt="Repairo logo"
             desc="Worked as a Full stack Intern to develop UI components and make Rest API's. Implemented various functionalities as well as managed states using context API also worked on developing admin dashboard"
-            position="May 2022 - Aug 2022"
+            position="Jun 2022 - Aug 2022"
           />
 
           {/* <Card

@@ -2,6 +2,11 @@
     background:#272727;
     padding-bottom:32px;
 }
+.name{
+    font-size: 40px !important;
+    font-weight: 700;
+    color: rgb(148, 205, 255);
+}
 .main {
     font-family: 'Cormorant';
     font-weight:200;
@@ -11,7 +16,7 @@
     /* background-color: #111827; */
     height: 100vh;
     height:calc(100vh - 75px);
-
+    margin-top: -30px;
     color: white;
     display: flex;
     /* flex-direction: column; */
@@ -26,6 +31,7 @@
     flex-direction: column;
     justify-content: flex-end;
     font-weight:200;
+    margin-top: -100px;
     /* padding-bottom:5%; */
     /* color:#141C3A; */
     color:white;
@@ -102,6 +108,7 @@
         justify-content: space-between;
         align-items: center;
     }
+
     
     .mainLeft p:nth-child(1),
     .mainLeft p:nth-child(2){
@@ -136,6 +143,11 @@
     }
     .mainLeft{
         width: 70%;
+    }
+    .name{
+        font-size: 30px !important;
+        font-weight: 700;
+        color: rgb(148, 205, 255);
     }
     
     .mainLeft p:nth-child(1),

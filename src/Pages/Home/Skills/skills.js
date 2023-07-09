@@ -64,7 +64,7 @@ export default function Skills({Skills_ref}) {
           <div className={styles.logoImages}>
             <img src={Javascript} alt="frontend" title="JavaScript"/>
             <img src={ReactLogo} alt="frontend" title="React"/>
-            <img src={Redux} alt="frontend" title="Redux"/>
+            {/* <img src={Redux} alt="frontend" title="Redux"/> */}
             <img src={Html} alt="frontend"  title="HTML"/>
             <img src={Css} alt="frontend" title="CSS"/>
             <img src={Figma} alt="frontend" title="Figma" />
@@ -84,7 +84,7 @@ export default function Skills({Skills_ref}) {
             <img src={Express} alt="backend techs" title="Express"/>
             <img src={Postman} alt="backend techs" title="Postman"/>
             <img src={Docker} alt="backend techs" title="Docker"/>
-            <img src={Jest} alt="Other skills techs"title="Jest" />
+            {/* <img src={Jest} alt="Other skills techs"title="Jest" /> */}
           </div>
         </div>
 
@@ -98,7 +98,7 @@ export default function Skills({Skills_ref}) {
           <h4 className={styles.stacks}>Databases</h4>
           <div className={styles.logoImages}>
             <img src={Mongo} alt="backend techs" title="Mongo Db"/>
-            <img src={Redis} alt="Redis logo " title="Redis"/>
+            {/* <img src={Redis} alt="Redis logo " title="Redis"/> */}
           </div>
         </div>
 
@@ -111,7 +111,7 @@ export default function Skills({Skills_ref}) {
         >
           <h4 className={styles.stacks}>Other skills</h4>
           <div className={styles.logoImages}>
-            <img src={Cpp} alt="Other skills techs" title="C++" />
+            <img src={Cpp} alt="Other skills techs" title="Python" />
             <img src={Javascript} alt="language" title="JavaScript"/>
             <img src={SQL} alt="language" title="SQL" />
             <img src={Git} alt="git logo" title="Git" />

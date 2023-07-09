@@ -24,7 +24,7 @@
 .projects {
     display: flex;
     justify-content: flex-start;
-    gap: 32px;
+    gap: 35px;
     flex-wrap: wrap;
 }
 

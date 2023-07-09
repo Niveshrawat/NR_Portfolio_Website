@@ -25,7 +25,7 @@ function Landing({Landing_ref}) {
           data-aos-duration="1500"
           className={styles.mainLeft}
         >
-          <p>
+          <p className={styles.name}>
             Hey! This is <b>Nivesh Rawat,</b>
           </p>
 
@@ -38,7 +38,7 @@ function Landing({Landing_ref}) {
           <span className={styles.resumeBtn}>
               <a
                 style={{ textDecoration: "none", color: "white" }}
-                href="https://drive.google.com/file/d/13_pGEoALOaUJ4S05N81LXxlV1-JF4wa8/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ZfXy2sIcD8yg2xF5pAG12T1VCvKSNJXB/view?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
               >
